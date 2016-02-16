@@ -1,0 +1,7 @@
+price(s)?
+cost
+Offer(\s)+Rate(s)?
+Rate(s)?
+USD
+target
+min(imum)?(\s)+(.)*(\s)+((price(s)?)|(cost)|(Offer(\s)+Rate(s)?)|(Rate(s)?)|(USD)|(target))
