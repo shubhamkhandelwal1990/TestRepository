@@ -27,9 +27,9 @@ public class Dashboard extends JFrame
 		try
 		{
 			File file = new File("C:\\Users\\NIKHIL\\Desktop\\Excels\\logs.txt");
- 
+  
 			if( file.exists()) file.delete();
-
+System.out.println("hi nik");
 			file.createNewFile();
 
 			PrintStream os = new PrintStream(file);
